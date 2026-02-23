@@ -9,6 +9,7 @@ import ProgressFr from './components/Progress-fr'
 import Alphabet from './components/Alphabet'
 import AvatarSelector from './components/AvatarSelector'
 import SupportPage from './components/SupportPage'
+import AIHelper from './components/AIHelper'
 
 function App() {
   const [currentView, setCurrentView] = useState('home')
@@ -246,6 +247,9 @@ function App() {
           {renderContent()}
         </motion.div>
       </AnimatePresence>
+
+      {/* AI Helper */}
+      <AIHelper />
     </div>
   )
 }
