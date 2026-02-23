@@ -5,18 +5,19 @@ import { Heart, Coffee, CreditCard, ArrowLeft } from 'lucide-react';
 function SupportPage({ onBack }) {
   const supportMethods = [
     {
+      icon: '📱',
+      title: 'Bankily',
+      description: 'رقم الحساب: 36332374',
+      link: '#bankily',
+      color: '#00A651',
+      isBankily: true
+    },
+    {
       icon: '☕',
       title: 'Buy Me a Coffee',
       description: 'ادعمنا بكوب قهوة',
       link: 'https://www.buymeacoffee.com/yourusername',
       color: '#FFDD00'
-    },
-    {
-      icon: '💳',
-      title: 'PayPal',
-      description: 'تحويل عبر PayPal',
-      link: 'https://paypal.me/yourusername',
-      color: '#003087'
     },
     {
       icon: '💎',
